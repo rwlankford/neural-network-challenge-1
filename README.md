@@ -1,7 +1,6 @@
 # neural-network-challenge-1
 Module 18 Challenge
 
-```markdown
 # Student Loan Risk with Deep Learning
 
 <a href="https://colab.research.google.com/github/rwlankford/neural-network-challenge-1/blob/main/student_loans_with_deep_learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -116,3 +115,6 @@ predictions_df["predictions"] = round(predictions_df["predictions"], 0)
 # Display classification report
 print(classification_report(y_test, predictions_df["predictions"].values))
 ```
+
+
+
